@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #fbfbfb;
+  --color-primary: #b47150;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  margin: 0;
+  color: #1e1a1d;
+}
+
+/* li {
+  list-style: none;
+} */
+
+.MuiTabs-indicator {
+  background-color: var(--color-primary) !important ;
+}
+.Mui-selected {
+  color: var(--color-primary) !important;
+}
+/* .MuiTab-root {
+  color: red;
+} */
+
+.MuiBox-root {
+  padding: 0 !important;
+}
+
+/* .MuiButtonBase-root {
+  color: var(--color-primary) !important;
+} */
+
+/* .MuiButton-root {
+  color: red !important;
+} */
+
+/* .MuiLoadingButton-root {
+  color: rgb(255, 0, 0) !important;
+} */
